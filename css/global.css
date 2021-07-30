@@ -1,0 +1,83 @@
+/* root variables */
+:root {
+    /* white and black */
+    --white: #ffffff;
+    --black: #000000;
+
+    /* page colours */
+    --darkSlateGrey: darkslategrey;
+    --darkGrey: darkgrey;
+
+    /* buttons & special effects colours */
+    --red: red;
+    --hoverRed: #EE3342;
+
+    --green: green;
+    --hoverGreen: #4CAF50;
+}
+/* css reset */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* body background color */
+body {
+    background-color: var(--darkSlateGrey);
+}
+
+/* navigation bar */
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--darkGrey);
+    height: 100px;
+}
+#logo_img {
+    width: 100px;
+    height: 100px;
+}
+#navbar_flex_container {
+    display: flex;
+}
+.navbar_item {
+    list-style-type: none;
+    padding: 2rem;
+}
+.navbar_item a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 1.5rem;
+    color: var(--white);
+    transition: background-color 0.3s;
+}
+.navbar_item a:hover {
+    background-color: var(--darkorange);
+    border-radius: 8px;
+}
+
+/* main content */
+#content {
+    min-height: 451px;
+}
+
+/* footer */
+#footer {
+    background-color: var(--darkorange);
+    padding: 1rem;
+    text-align: center;
+}
+#copyright_text {
+    color: var(--white);
+}
+
+/* button styling */
+.btn {
+    padding: 0.8rem 2rem;
+    width: 125px;
+    margin: 0 0.5rem;
+    color: var(--white);
+    border: none;
+}

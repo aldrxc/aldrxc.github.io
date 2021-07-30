@@ -6,16 +6,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>aldrxc</title>
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/index.css">
 </head>
 
 <body>
-    <header>header</header>
-    <main>
-        <h1>main</h1>
-        <p>paragraph</p>
+    <header id="header">
+    </header>
+    <main id="main_content">
+
     </main>
-    <footer>footer</footer>
+    <footer id="footer">
+    </footer>
+
+    <!-- scripts -->
+    <script src="https://aldrxc.github.io/js/jquery.min.js"></script>
+    <script src="https://aldrxc.github.io/js/global.js"></script>
+    <script>
+        $(function () {
+            $("#header").load("https://aldrxc.github.io/header.html");
+            $("#footer").load("https://aldrxc.github.io/footer.html");
+        });
+    </script>
 </body>
 
 </html>
