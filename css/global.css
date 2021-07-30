@@ -28,11 +28,11 @@ body {
 }
 
 /* navigation bar */
-#navbar {
+#header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--darkGrey);
+    background-color: var(--black);
     height: 100px;
 }
 #logo_img {
@@ -49,23 +49,23 @@ body {
 .navbar_item a {
     text-decoration: none;
     font-size: 1.5rem;
-    padding: 1.5rem;
+    padding: 2rem;
     color: var(--white);
+    border-radius: 8px;
     transition: background-color 0.3s;
 }
 .navbar_item a:hover {
-    background-color: var(--darkorange);
-    border-radius: 8px;
+    background-color: var(--red);
 }
 
 /* main content */
-#content {
-    min-height: 451px;
+#main_content {
+    min-height: 475px;
 }
 
 /* footer */
 #footer {
-    background-color: var(--darkorange);
+    background-color: var(--black);
     padding: 1rem;
     text-align: center;
 }
