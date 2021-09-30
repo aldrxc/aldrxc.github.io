@@ -3,7 +3,7 @@ $(function () {
         var busCode = $("#input_busCode").val(); // 77009
         console.log(busCode);
         $.ajax({
-            url: "http://datamall2.mytransport.sg/ltaodataservice/BusArrivalv2?BusStopCode=" + busCode,
+            url: "https://datamall2.mytransport.sg/ltaodataservice/BusArrivalv2?BusStopCode=" + busCode,
             dataType: "json",
             method: "get",
             headers: { 'AccountKey': "2QBcIOFzR2auBBw65cWzSA==", 'accept': "application/json" }
