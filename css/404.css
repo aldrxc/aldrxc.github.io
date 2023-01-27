@@ -1,0 +1,24 @@
+#center404 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+#errorMsg {
+    color: var(--white);
+    text-align: center;
+    margin: auto;   
+}
+#backToIndexLink {
+    text-decoration: none;
+    margin: 40%;
+    font-size: 1.2rem;
+    padding: 22px 32px;
+    color: var(--white);
+    border-radius: 8px;
+    background-color: var(--redAccentColour3);
+    transition: background-color 0.3s;
+}
+#backToIndexLink:hover {
+    background-color: var(--redAccentColour2);
+}
