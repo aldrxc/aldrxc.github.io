@@ -48,7 +48,7 @@ body {
     max-height: 100px;
 }
 
-/* dropdown menu */
+/* click dropdown */
 .dropbtn {
     background-color: var(--redAccentColour3);
     color: var(--white);
@@ -56,7 +56,9 @@ body {
     padding: 39px 40px;
     border: none;
     cursor: pointer;
-    box-sizing: border-box;
+}
+.dropbtn:hover, .dropbtn:focus {
+    background-color: var(--redAccentColour2);
 }
 .dropdown {
     position: relative;
@@ -80,10 +82,10 @@ body {
     text-align: center;
     transition: background-color 0.4s;
 }
-.dropdown-content a:hover {
+.dropdown a:hover {
     background-color: var(--redAccentColour3);
 }
-.dropdown:hover .dropdown-content {
+.show {
     display: block;
 }
 
