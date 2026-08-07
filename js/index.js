@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   const data = await getResumeData();
   if (!data) return;
 
-  // Render dynamic featured project preview on index page if container exists
+  // render dynamic featured project preview on index page if container exists
   const featuredContainer = document.getElementById("featured-project");
   if (featuredContainer && data.projects.length > 0) {
     const featured = data.projects.find(p => p.featured) || data.projects[0];

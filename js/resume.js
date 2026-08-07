@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   const data = await getResumeData();
   if (!data) return;
 
-  // Education
+  // education
   const eduContainer = document.getElementById("education-container");
   if (eduContainer && data.education) {
     eduContainer.innerHTML = data.education.map(edu => `
@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     `).join('');
   }
 
-  // Skills
+  // skills
   const skillsContainer = document.getElementById("skills-container");
   if (skillsContainer && data.skills) {
     skillsContainer.innerHTML = data.skills.map(s => `
@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     `).join('');
   }
 
-  // Work Experience
+  // work experience
   const workContainer = document.getElementById("work-container");
   if (workContainer && data.workExperience) {
     workContainer.innerHTML = data.workExperience.map(work => `
@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     `).join('');
   }
 
-  // Awards
+  // awards
   const awardsContainer = document.getElementById("awards-container");
   if (awardsContainer && data.awards) {
     awardsContainer.innerHTML = data.awards.map(a => `
