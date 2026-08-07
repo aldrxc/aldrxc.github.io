@@ -1,37 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <link rel="icon" type="image/x-icon" href="./assets/logo.jpg">
-    <!-- stylesheets -->
-    <link rel="stylesheet" href="./css/global.css">
-    <link rel="stylesheet" href="./css/index.css">
-    <!-- scripts -->
-    <script src="./js/jquery.min.js"></script>
-    <script src="./js/global.js"></script>
-    <!-- <script>
-        $(document).ready(function () {
-            $("#header").load("./header.html");
-            $("#footer").load("./footer.html");
-        });
-    </script> -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aldric Tan - Personal Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/index.css">
 </head>
-
 <body>
-    <header id="header">
-    </header>
+  <div id="header-placeholder"></div>
 
-    <main id="main_content">
+  <main class="container py-5">
+    <section class="hero-section text-center text-lg-start">
+      <div class="row align-items-center">
+        <div class="col-lg-8">
+          <h1 class="hero-title">Hi, I'm <span class="text-gradient-red">Aldric Tan</span></h1>
+          <p class="lead text-muted mt-3">
+            Software Engineering Student at Singapore Institute of Technology & Automation Developer.
+          </p>
+          <div class="mt-4">
+            <a href="projects.html" class="btn btn-danger btn-lg me-2">View Projects</a>
+            <a href="resume.html" class="btn btn-outline-light btn-lg">View Resume</a>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    </main>
+    <!-- Dynamic Featured Section -->
+    <section class="mt-5">
+      <div class="row g-4">
+        <div class="col-lg-8" id="featured-project">
+          <!-- Dynamically loaded via home.js -->
+        </div>
+        <div class="col-lg-4">
+          <div class="card card-dark p-4 h-100">
+            <h5 class="text-danger">Quick Contact</h5>
+            <p class="text-muted small">Feel free to reach out for collaborations or opportunities.</p>
+            <ul class="list-unstyled text-muted small mb-0">
+              <li class="mb-2"><strong>Location:</strong> Singapore</li>
+              <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/aldricc/" target="_blank">linkedin.com/in/aldricc</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
 
-    <footer id="footer">
-    </footer>
+  <div id="footer-placeholder"></div>
 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/global.js"></script>
+  <script src="js/index.js"></script>
 </body>
-
 </html>

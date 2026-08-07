@@ -1,0 +1,170 @@
+{
+  "personal": {
+    "name": "Aldric Tan",
+    "title": "Software Engineering Student & Automation Developer",
+    "linkedin": "https://www.linkedin.com/in/aldricc/"
+  },
+  "education": [
+    {
+      "institution": "Singapore Institute of Technology",
+      "period": "Sep 2025 – Aug 2029",
+      "degree": "Bachelor of Engineering in Information and Communications Technology (Software Engineering)",
+      "details": []
+    },
+    {
+      "institution": "Nanyang Polytechnic",
+      "period": "Apr 2019 – Feb 2022",
+      "degree": "Diploma in Multimedia and Infocomm Technology",
+      "details": [
+        "Specialization: Software and Applications",
+        "Awarded Director's List for Academic Year 2020 Semester 1 (top 15% of cohort)",
+        "Achieved multiple distinctions throughout course of study"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "category": "Programming Languages",
+      "items": ["C", "C#", "Java", "Python", "C++", "PHP", "SQL", "JavaScript", "HTML", "CSS"]
+    },
+    {
+      "category": "Automation & Tools",
+      "items": ["TagUI", "UiPath", "Excel VBA", "Git", "WAMP/LAMP/XAMPP"]
+    },
+    {
+      "category": "Embedded Systems",
+      "items": ["ESP32", "Arduino", "MSP430", "Assembly Language", "Hardware-Software Prototyping"]
+    },
+    {
+      "category": "Design & Systems",
+      "items": ["UI/UX Design", "Enterprise Hardware Configuration", "Network Troubleshooting", "Physical Security Operations"]
+    }
+  ],
+  "workExperience": [
+    {
+      "role": "Automation Developer (Part-time)",
+      "company": "GLY PTE LTD",
+      "location": "Singapore",
+      "period": "Dec 2025 – Present",
+      "responsibilities": [
+        "Engineered custom scripts using Excel VBA to automate fund tallying from Shopee and Lazada, reducing calculation time from 3 hours to under 15 minutes per week.",
+        "Executed pick-and-pack processes, stock-taking, and return parcel handling for e-commerce shop profiles.",
+        "Systematized digital archiving of financial records, bank accounts, and receipts to support financial tracking."
+      ]
+    },
+    {
+      "role": "Pick Packer (Part-time)",
+      "company": "GLY PTE LTD",
+      "location": "Singapore",
+      "period": "Jan 2025 – Aug 2025",
+      "responsibilities": [
+        "Executed accurate pick-and-pack processes across Shopee, Lazada, and TikTok orders for 3 distinct shop profiles.",
+        "Managed stock-taking and processed return parcels meticulously, maintaining strict inventory accuracy.",
+        "Systematized digital archiving of financial records and receipts."
+      ]
+    },
+    {
+      "role": "Security Trooper (Full-time)",
+      "company": "Singapore Armed Forces",
+      "location": "Singapore",
+      "period": "Aug 2022 – Aug 2024",
+      "responsibilities": [
+        "Completed Basic Military Training (BMT), demonstrating discipline and resilience.",
+        "Enforced stringent access control and conducted regular security patrols for critical military assets.",
+        "Managed guardhouse operations with high situational awareness, maintaining a 100% incident-free record."
+      ]
+    },
+    {
+      "role": "Retail Assistant",
+      "company": "Challenger Technologies Limited",
+      "location": "Singapore",
+      "period": "Mar 2022 – Jul 2022",
+      "responsibilities": [
+        "Resolved complex technical and sales inquiries at high-volume retail outlet, driving sales.",
+        "Maintained stockkeeping and shelf management protocols to optimize product displays."
+      ]
+    },
+    {
+      "role": "RPA/Automation Developer Intern",
+      "company": "Singtel",
+      "location": "Singapore",
+      "period": "Sep 2021 – Feb 2022",
+      "responsibilities": [
+        "Automated CI/CD pipelines using Bamboo and Ansible, integrating Maven, JUnit, and SonarQube for nearly 90 components.",
+        "Implemented RPA scripts using TagUI and UiPath, reducing task durations from hours to under 1 hour."
+      ]
+    },
+    {
+      "role": "IT Support Intern",
+      "company": "OneSystems Technologies Pte Ltd",
+      "location": "Singapore",
+      "period": "Sep 2019",
+      "responsibilities": [
+        "Configured hardware and network systems, resolving daily IT support requests efficiently."
+      ]
+    },
+    {
+      "role": "IT Support Intern",
+      "company": "OneSystems Technologies Pte Ltd",
+      "location": "Singapore",
+      "period": "Mar 2019",
+      "responsibilities": [
+        "Gained hands-on experience with enterprise networking systems assisting IT Support Engineers."
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Team Project Demo | SIT Open House 2026",
+      "year": "Feb 2026",
+      "details": "Engineered an AI-driven robot dog utilizing an ESP32 microcontroller, ChatGPT APIs, and TinyScreen+ to facilitate interactive text and audio responses."
+    },
+    {
+      "title": "Multiple Distinctions & Director's List (Top 15% of Cohort)",
+      "year": "2020",
+      "details": "Awarded for Academic Year 2020 Semester 1 at Nanyang Polytechnic."
+    },
+    {
+      "title": "School Representative, NSG North Zone Badminton",
+      "year": "2016 – 2018",
+      "details": "Represented Northbrooks Secondary School across C Division (2016) and B Division (2017, 2018)."
+    }
+  ],
+  "cca": [
+    {
+      "role": "Shuttler",
+      "organization": "SIT Badminton Recreational Club",
+      "period": "Sep 2025 – Present",
+      "description": "Engaged in weekly recreational badminton to foster team dynamics and personal resilience."
+    },
+    {
+      "role": "Skater",
+      "organization": "SIT Inline Skating Club",
+      "period": "Dec 2025 – Present",
+      "description": "Participated in regular inline skating sessions to promote physical well-being and core balance."
+    }
+  ],
+  "projects": [
+    {
+      "title": "AI-Driven Robot Dog",
+      "techStack": ["ESP32", "ChatGPT API", "TinyScreen+", "C++"],
+      "period": "Feb 2026",
+      "description": "Engineered an interactive robot dog demonstrating embedded AI integration for the SIT Open House 2026. Features realtime text and voice interaction via APIs.",
+      "featured": true
+    },
+    {
+      "title": "E-Commerce Finance Automation Script",
+      "techStack": ["Excel VBA", "Automation"],
+      "period": "Dec 2025",
+      "description": "Custom VBA automation tool for GLY PTE LTD that reconciles multi-channel e-commerce funds (Shopee/Lazada), slashing processing time from 3 hours to 15 minutes weekly.",
+      "featured": true
+    },
+    {
+      "title": "CI/CD Pipeline Automation",
+      "techStack": ["Bamboo", "Ansible", "Maven", "SonarQube"],
+      "period": "2021 – 2022",
+      "description": "Enterprise-level automation pipeline setup during internship at Singtel, unifying code verification for nearly 90 application components.",
+      "featured": false
+    }
+  ]
+}

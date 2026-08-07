@@ -1,0 +1,8 @@
+.bio-paragraph {
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.cca-card {
+  border-top: 2px solid var(--primary-red);
+}

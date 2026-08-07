@@ -1,0 +1,21 @@
+main {
+  flex: 1 0 auto; /* Ensures main content area expands to push footer down */
+}
+
+.hero-section {
+  padding: 60px 0;
+}
+
+.hero-title {
+  font-size: 3.5rem;
+  font-weight: 800;
+}
+
+.hero-subtitle {
+  color: #d0d0d8;
+  font-size: 1.25rem;
+}
+
+.quick-contact-list strong {
+  color: #ffffff;
+}

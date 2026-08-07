@@ -1,31 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume</title>
-    <link rel="icon" type="image/x-icon" href="./assets/logo.jpg">
-    <!-- stylesheets -->
-    <link rel="stylesheet" href="./css/global.css">
-    <link rel="stylesheet" href="./css/resume.css">
-    <!-- scripts -->
-    <script src="./js/jquery.min.js"></script>
-    <script src="./js/global.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume - Aldric Tan</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/resume.css">
 </head>
-
 <body>
-    <header id="header">
-    </header>
+  <div id="header-placeholder"></div>
 
-    <main id="main_content">
+  <main class="container py-5">
+    <div class="d-flex justify-content-between align-items-center mb-4 flex-wrap">
+      <h2 class="section-title mb-0">Resume</h2>
+      <a href="mailto:aldrictansl44@gmail.com" class="btn btn-outline-danger btn-sm">Get in Touch</a>
+    </div>
 
-    </main>
+    <!-- Education Section -->
+    <h3 class="resume-section-title">Education</h3>
+    <div id="education-container" class="mb-5">
+      <!-- Dynamically populated via resume.js -->
+    </div>
 
-    <footer id="footer">
-    </footer>
+    <!-- Skills Section -->
+    <h3 class="resume-section-title">Skills</h3>
+    <div class="row mb-5" id="skills-container">
+      <!-- Dynamically populated via resume.js -->
+    </div>
 
+    <!-- Work Experience Section -->
+    <h3 class="resume-section-title">Work Experience</h3>
+    <div id="work-container" class="mb-5">
+      <!-- Dynamically populated via resume.js -->
+    </div>
+
+    <!-- Awards and Achievements Section -->
+    <h3 class="resume-section-title">Awards & Achievements</h3>
+    <div id="awards-container" class="mb-5">
+      <!-- Dynamically populated via resume.js -->
+    </div>
+  </main>
+
+  <div id="footer-placeholder"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/global.js"></script>
+  <script src="js/resume.js"></script>
 </body>
-
 </html>

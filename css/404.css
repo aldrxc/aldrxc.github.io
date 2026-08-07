@@ -1,24 +1,17 @@
-#center404 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 500px;
+.error-container {
+  max-width: 600px;
+  width: 100%;
+  border-top: 3px solid var(--bright-red);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
 }
-#errorMsg {
-    color: var(--white);
-    text-align: center;
-    margin: auto;   
+
+.error-code {
+  font-size: 6rem;
+  letter-spacing: 2px;
+  line-height: 1;
+  margin-bottom: 0.5rem;
 }
-#backToIndexLink {
-    text-decoration: none;
-    margin: 40%;
-    font-size: 1.2rem;
-    padding: 22px 32px;
-    color: var(--white);
-    border-radius: 8px;
-    background-color: var(--redAccentColour3);
-    transition: background-color 0.3s;
-}
-#backToIndexLink:hover {
-    background-color: var(--redAccentColour2);
+
+.max-w-400 {
+  max-width: 400px;
 }
