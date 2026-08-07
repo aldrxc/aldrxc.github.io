@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         <span class="badge badge-red mb-2">Featured Project</span>
         <h4>${featured.title}</h4>
         <p class="text-muted small">${featured.description}</p>
-        <a href="projects.html" class="text-danger small fw-bold">View all projects &rarr;</a>
+        <a href="/projects.html" class="text-danger small fw-bold">View all projects &rarr;</a>
       </div>
     `;
   }

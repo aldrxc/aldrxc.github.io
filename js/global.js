@@ -4,11 +4,11 @@ let cachedData = null;
 async function getResumeData() {
   if (cachedData) return cachedData;
   try {
-    const response = await fetch('data/data.json');
+    const response = await fetch('/data/data.json');
     cachedData = await response.json();
     return cachedData;
   } catch (error) {
-    console.error('Error fetching data/data.json:', error);
+    console.error('Error fetching /data/data.json:', error);
     return null;
   }
 }
@@ -16,7 +16,7 @@ async function getResumeData() {
 // load header and footer components
 document.addEventListener("DOMContentLoaded", () => {
   // fetch and inject header
-  fetch("header.html")
+  fetch("/header.html")
     .then(res => res.text())
     .then(data => {
       const headerPlaceholder = document.getElementById("header-placeholder");
@@ -25,16 +25,16 @@ document.addEventListener("DOMContentLoaded", () => {
         highlightActiveNav();
       }
     })
-    .catch(error => console.error("Error loading header.html:", error));
+    .catch(error => console.error("Error loading /header.html:", error));
 
   // fetch and inject footer
-  fetch("footer.html")
+  fetch("/footer.html")
     .then(res => res.text())
     .then(data => {
       const footerPlaceholder = document.getElementById("footer-placeholder");
       if (footerPlaceholder) {
         footerPlaceholder.innerHTML = data;
-        
+
         // dynamically set current year in footer
         const yearSpan = document.getElementById("current-year");
         if (yearSpan) {
@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", () => {
         }
       }
     })
-    .catch(error => console.error("Error loading footer.html:", error));
+    .catch(error => console.error("Error loading /footer.html:", error));
 });
 
 // highlight current active tab in navbar
