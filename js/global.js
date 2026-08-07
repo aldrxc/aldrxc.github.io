@@ -45,11 +45,17 @@ document.addEventListener("DOMContentLoaded", () => {
     .catch(error => console.error("Error loading /footer.html:", error));
 });
 
-// highlight current active tab in navbar
+// highlight current active tab in navbar for folder routes
 function highlightActiveNav() {
-  const path = window.location.pathname.split("/").pop() || "index.html";
-  if (path.includes("index")) document.getElementById("nav-home")?.classList.add("active");
-  if (path.includes("about")) document.getElementById("nav-about")?.classList.add("active");
-  if (path.includes("resume")) document.getElementById("nav-resume")?.classList.add("active");
-  if (path.includes("projects")) document.getElementById("nav-projects")?.classList.add("active");
+  const path = window.location.pathname;
+  
+  if (path.includes("/about")) {
+    document.getElementById("nav-about")?.classList.add("active");
+  } else if (path.includes("/resume")) {
+    document.getElementById("nav-resume")?.classList.add("active");
+  } else if (path.includes("/projects")) {
+    document.getElementById("nav-projects")?.classList.add("active");
+  } else {
+    document.getElementById("nav-home")?.classList.add("active");
+  }
 }
