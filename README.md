@@ -1,6 +1,6 @@
 # Aldric Tan — Personal Portfolio & Showcase
 
-Welcome! This is the source repository for my personal portfolio website hosted live [here](https://aldrxc.github.io/)!.
+Welcome! This is the source repository for my personal portfolio website hosted live [here](https://aldrxc.github.io/)!
 
 The site serves as a hub for my software engineering background, interactive technical projects, process automation tools, and professional experience.
 
